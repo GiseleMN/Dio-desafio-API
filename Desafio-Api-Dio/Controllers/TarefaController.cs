@@ -29,11 +29,11 @@ namespace Desafio_Api_Dio.Controllers
 
             return Ok(tarefaId);
         }
-        [HttpGet("ObterTodos")]
+        [HttpGet]
         public IActionResult ObterTodos()
         {
             // TODO: Buscar todas as tarefas no banco utilizando o EF
-           
+
             return Ok(_context.Tarefas.ToList());
         }
 
