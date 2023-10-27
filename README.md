@@ -8,18 +8,17 @@ Essa lista de tarefas precisa ter um CRUD, ou seja, deverá permitir a você obt
 
 A sua aplicação deverá ser do tipo Web API ou MVC, fique a vontade para implementar a solução que achar mais adequado.
 
-A sua classe principal, a classe de tarefa, deve ser a seguinte:
-
-![Diagrama da classe Tarefa](Github/diagrama.png)
+| A sua classe principal, a classe de tarefa, deve ser a seguinte: | ![Diagrama da classe Tarefa](Github/diagrama.png) |
+| --- | --- |
 
 ## Métodos esperados
 É esperado que você crie o seus métodos conforme a seguir:
 
+| ![Métodos Swagger](Github/swagger.png) | **Swagger** |
+| --- | --- |
 
-**Swagger**
 
-
-![Métodos Swagger](Github/swagger.png)
+<br>
 
 
 **Endpoints**
@@ -36,9 +35,19 @@ A sua classe principal, a classe de tarefa, deve ser a seguinte:
 | GET    | /Tarefa/ObterPorStatus  | status    | N/A           |
 | POST   | /Tarefa                 | N/A       | Schema Tarefa |
 
-Esse é o schema (model) de Tarefa, utilizado para passar para os métodos que exigirem
 
-```json
+<br>
+<hr>
+<br>
+
+
+
+| Esse é o schema (model) de Tarefa, utilizado para passar para os métodos que exigirem | ![Schema model](github/schema_tarefa.png) |
+| --- | --- |
+
+<br>
+
+ ```json
 {
   "id": 0,
   "titulo": "string",
@@ -46,5 +55,4 @@ Esse é o schema (model) de Tarefa, utilizado para passar para os métodos que e
   "data": "2022-06-08T01:31:07.056Z",
   "status": "Pendente"
 }
-```
-![Schema model](github/schema_tarefa.png)
+``` 
