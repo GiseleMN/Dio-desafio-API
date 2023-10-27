@@ -42,7 +42,7 @@ A sua aplicação deverá ser do tipo Web API ou MVC, fique a vontade para imple
 
 
 
-| Esse é o schema (model) de Tarefa, utilizado para passar para os métodos que exigirem | ![Schema model](github/schema_tarefa.png) |
+| Esse é o schema (model) de Tarefa, utilizado para passar para os métodos que exigirem | ![Schema model](Github/schema_tarefa.png) |
 | --- | --- |
 
 <br>
